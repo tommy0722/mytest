@@ -1,0 +1,15 @@
+.roulette-container {
+    text-align: center;
+  }
+  
+  .roulette-wheel {
+    width: 200px; /* 根据你的图片大小调整 */
+    height: auto;
+    transition: transform 2s; /* 平滑转换效果 */
+  }
+  
+  .rotating {
+    /* 如果需要旋转动画，取消注释 */
+    transform: rotate(360deg);
+  }
+  
